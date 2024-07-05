@@ -1,0 +1,278 @@
+CSS BOILERPLATE
+
+/*----------------------------------------------
+1. Universal Styles
+----------------------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	line-height: 1;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+/*----------------------------------------------
+2. Header & Nav Styles
+----------------------------------------------*/
+
+.nav-container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: grey;
+}
+
+.logo-header {
+	width: 20%;
+	height: 120px;
+}
+
+.nav-bar {
+	display: flex;
+	flex-direction: row;
+	font-size: 1.6em;
+	color: whitesmoke;
+	list-style-type: none;
+	margin-top: 35px;
+	cursor: pointer;
+}
+
+.nav-bar li {
+	margin-right: 35px;
+}
+
+#services {
+	margin-right: 0px;
+}
+
+.mobile-nav {
+	margin-right: 35px;
+	margin-top: 30px;
+	height: 50px;
+	width: 25px;
+	cursor: pointer;
+	padding: 6px 7px;
+	display: none;
+	font-size: 2.6em;
+	color: whitesmoke;
+}
+
+.dropdown-arrow {
+	display: inline-block;
+	transform: rotate(-90deg);
+	margin-left: 5px;
+	transition: all ease 0.5s;
+}
+
+.rotate-arrow {
+	transform: rotate(90deg);
+	transition: all ease 0.5s;
+}
+/*----------------------------------------------
+3. Main Body Styles
+----------------------------------------------*/
+
+.hero-container {
+	width: 100%;
+	border: 1px solid black;
+	height: 1100px;
+}
+
+.hero-header {
+	text-align: center;
+	margin-top: 10px;
+}
+
+h2,
+h4 {
+	font-size: 1.6em;
+	color: grey;
+}
+
+.hero-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 25px;
+}
+
+.text-area {
+	width: 45%;
+	border: 1px solid red;
+	height: 700px;
+}
+
+.photo-area {
+	width: 45%;
+	border: 1px solid magenta;
+	height: 700px;
+}
+
+/*----------------------------------------------
+3. SERVICES Section Styles
+----------------------------------------------*/
+
+.services-container {
+	width: 100%;
+	height: 650px;
+	border: 1px solid blue;
+}
+
+.services-header {
+	text-align: center;
+}
+
+.services-provided {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.services1,
+.services2,
+.services3 {
+	width: 22%;
+	height: 460px;
+	border: 1px solid green;
+	margin-top: 48px;
+}
+
+/*----------------------------------------------
+3. TESTIMONIAL Section Styles
+----------------------------------------------*/
+.testimonial-container {
+	width: 100%;
+	height: 450px;
+	border: 1px solid firebrick;
+}
+
+.testimonials-header {
+	text-align: center;
+}
+
+.testimonials-given {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.testimonial1,
+.testimonial2,
+.testimonial3,
+.testimonial4 {
+	width: 20%;
+	height: 280px;
+	border: 1px solid green;
+	margin-top: 48px;
+}
+/*----------------------------------------------
+3. PROJECTS Section Styles
+----------------------------------------------*/
+
+.projects-container {
+	width: 100%;
+	height: 720px;
+	border: 1px solid royalblue;
+}
+
+.projects-header {
+	text-align: center;
+}
+
+.projects-made {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.project1,
+.project2,
+.project3,
+.project4,
+.project5,
+.project6 {
+	width: 25%;
+	height: 250px;
+	border: 1px solid black;
+	margin-top: 48px;
+}
+
+/*----------------------------------------------
+3. Footer Styles
+----------------------------------------------*/
+
+.footer-container {
+	width: 100%;
+	height: 120px;
+	background-color: grey;
+}
+
+/*----------------------------------------------
+ MEDIA QUERIES 
+----------------------------------------------*/
+
+@media only screen and (min-width: 1655px) {
+}
+
+@media only screen and (max-width: 1400px) {
+}
+
+@media only screen and (max-width: 1140px) {
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
