@@ -115,10 +115,43 @@ a:visited {
 3. Main Body Styles
 ----------------------------------------------*/
 
+.fade-in {
+	opacity: 0;
+	transition: opacity 600ms ease-in;
+	animation: fadeUpAnimation 1.5s;
+}
+
+.fade-in.appear {
+	opacity: 1;
+}
+
+.from-bottom {
+	transform: translateY(50px);
+	transition: transform 600ms ease-in;
+	animation: fadeUpAnimation 1.5s;
+}
+
+.from-bottom.appear {
+	transform: translateY(0);
+}
+
+@keyframes fadeUpAnimation {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(150px);
+		transform: translateY(150px);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+}
+
 .hero-container {
 	width: 100%;
 	border: 1px solid black;
-	height: 1100px;
+	height: 1150px;
 }
 
 .hero-header {
