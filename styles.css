@@ -22,6 +22,9 @@ html {
 body {
 	line-height: 1;
 	font-family: 'Alegreya Sans SC', sans-serif;
+	background-image: url('images/Code_Background2.jpg');
+	background-attachment: fixed;
+	background-size: 100% 100%;
 }
 
 ol,
@@ -115,6 +118,47 @@ a:visited {
 3. Main Body Styles
 ----------------------------------------------*/
 
+.hero-container {
+	width: 100%;
+	border: 1px solid black;
+	height: 1150px;
+}
+
+.hero-header {
+	text-align: center;
+	margin-top: 10px;
+}
+
+h2,
+h4 {
+	font-size: 2em;
+	color: white;
+}
+
+.hero-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 25px;
+}
+
+.text-area {
+	width: 45%;
+	border: 1px solid red;
+	height: 700px;
+}
+
+.photo-area {
+	width: 45%;
+	border: 1px solid magenta;
+	height: 700px;
+}
+
+/*----------------------------------------------
+3. SERVICES Section Styles
+----------------------------------------------*/
+
 .fade-in {
 	opacity: 0;
 	transition: opacity 600ms ease-in;
@@ -147,47 +191,6 @@ a:visited {
 		transform: translateY(0);
 	}
 }
-
-.hero-container {
-	width: 100%;
-	border: 1px solid black;
-	height: 1150px;
-}
-
-.hero-header {
-	text-align: center;
-	margin-top: 10px;
-}
-
-h2,
-h4 {
-	font-size: 1.6em;
-	color: grey;
-}
-
-.hero-info {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	width: 100%;
-	margin-top: 25px;
-}
-
-.text-area {
-	width: 45%;
-	border: 1px solid red;
-	height: 700px;
-}
-
-.photo-area {
-	width: 45%;
-	border: 1px solid magenta;
-	height: 700px;
-}
-
-/*----------------------------------------------
-3. SERVICES Section Styles
-----------------------------------------------*/
 
 .services-container {
 	width: 100%;
