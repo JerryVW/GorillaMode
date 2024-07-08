@@ -29,11 +29,11 @@
 			<ul id="nav-bar" class="nav-bar">
 				<li><a href="home.html">HOME</a></li>
 				<li><a href="about.html">ABOUT</a></li>
-				<li id="contact"><a href="contact.html">CONTACT</a></li>
+				<li id="contact"><a href="#contact-section">CONTACT</a></li>
 				<li><a href="blog.html">BLOG</a></li>
 				<div class="dropdown services">
 					<li id="services">
-						<a href="services.html">
+						<a href="#services-section">
 							SERVICES
 							<span id="rotate-arrow" class="dropdown-arrow"
 								>&#60;</span
@@ -59,7 +59,7 @@
 			</div>
 		</section>
 
-		<section class="services-container scale-in">
+		<section id="services-section" class="services-container scale-in">
 			<div class="services-header">
 				<h2>Services we provide</h2>
 			</div>
@@ -94,6 +94,58 @@
 				<div class="project5"></div>
 				<div class="project6"></div>
 			</div>
+		</section>
+
+		<section id="contact-section" class="contact-container scale-in">
+			<div class="contact-header">
+				<h2>Let us know how we can help</h2>
+			</div>
+			<form id="info-form" class="info-form" action=" ">
+				<div id="classes-info" class="form-container">
+					<div class="child">
+						<label for="first-name">First Name:</label><br />
+						<input
+							id="first-name"
+							type="text"
+							name="first-name"
+							placeholder="First Name"
+						/><br />
+						<label for="last-name">Last Name:</label><br />
+						<input
+							id="last-name"
+							type="text"
+							name="last-name"
+							placeholder="Last Name"
+						/><br />
+						<label for="email" required>Email:</label><br />
+						<input
+							id="email"
+							type="email"
+							name="email"
+							placeholder="Email"
+						/><br />
+						<label for="phone" required>Phone Number:</label><br />
+						<input
+							id="phone"
+							type="number"
+							name="phone"
+							placeholder="Phone Number"
+						/><br />
+						<label for="message">Brief Description:</label><br />
+						<textarea
+							id="message"
+							name="message"
+							placeholder="Message"
+							rows="6"
+							cols="29"
+						></textarea
+						><br />
+						<button id="submit-form" class="submit" type="button">
+							Request Info
+						</button>
+					</div>
+				</div>
+			</form>
 		</section>
 
 		<footer class="footer-container"></footer>
