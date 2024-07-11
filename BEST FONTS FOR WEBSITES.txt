@@ -1,0 +1,14 @@
+BEST FONTS FOR WEBSITES
+__________________________________
+
+Open Sans 3		Lato		Slabo 27px/13px
+Alegreya		Poppins		PT Sans
+Roboto			Oswald		Merriweather
+Anek			Raleway		Noto Sans / Serif
+Montserrat		Nunito Sans	Prompt		
+
+
+OPTIONAL SERIF FONTS
+__________________________________
+
+Playfair Display	Lora		Prata

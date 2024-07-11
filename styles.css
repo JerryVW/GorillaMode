@@ -35,20 +35,20 @@ body {
 			linear,
 			left top,
 			left bottom,
-			from(rgba(0, 0, 0, 0.6)),
-			to(rgba(0, 0, 0, 0.6))
+			from(rgba(0, 0, 0, 0.4)),
+			to(rgba(0, 0, 0, 0.4))
 		),
 		url('images/Code_Background2.jpg');
 	background-image: -o-linear-gradient(
 			top,
-			rgba(0, 0, 0, 0.6),
-			rgba(0, 0, 0, 0.6)
+			rgba(0, 0, 0, 0.4),
+			rgba(0, 0, 0, 0.4)
 		),
 		url('images/Code_Background2.jpg');
 	background-image: linear-gradient(
 			to bottom,
-			rgba(0, 0, 0, 0.6),
-			rgba(0, 0, 0, 0.6)
+			rgba(0, 0, 0, 0.4),
+			rgba(0, 0, 0, 0.4)
 		),
 		url('images/Code_Background2.jpg');
 }
@@ -180,20 +180,21 @@ h4 {
 	justify-content: space-around;
 	width: 100%;
 	margin-top: 25px;
+	height: 60vh;
 }
 
 .text-area {
 	width: 45%;
 	border: 1px solid white;
 	border-radius: 12px;
-	height: 700px;
+	height: 55vh;
 }
 
 .photo-area {
 	width: 45%;
 	border: 1px solid white;
 	border-radius: 12px;
-	height: 700px;
+	height: 55vh;
 }
 
 /*----------------------------------------------
@@ -206,6 +207,23 @@ h4 {
 	animation: fade-in linear forwards;
 	animation-timeline: view();
 	animation-range: 500px 800px;
+}
+
+.services-background {
+	background-color: rgba(221, 221, 221, 0.4);
+	width: 100%;
+	height: 950px;
+	z-index: -100;
+	clip-path: polygon(
+		8% 0%,
+		92% 0%,
+		100% 8%,
+		100% 92%,
+		92% 100%,
+		8% 100%,
+		0% 92%,
+		0% 8%
+	);
 }
 
 .services-container {
@@ -223,7 +241,7 @@ h4 {
 
 .services-header {
 	text-align: center;
-	margin-top: 200px;
+	padding-top: 200px;
 }
 
 .services-provided {
@@ -250,6 +268,7 @@ h4 {
 	width: 100%;
 	height: 950px;
 	scroll-margin-top: 400px;
+	padding-top: 250px;
 }
 
 .testimonials-header {
@@ -281,6 +300,7 @@ h4 {
 	width: 100%;
 	height: 920px;
 	scroll-margin-top: 400px;
+	margin-top: 250px;
 }
 
 .projects-header {
