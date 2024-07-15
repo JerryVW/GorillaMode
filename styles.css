@@ -160,7 +160,9 @@ a:visited {
 
 .hero-container {
 	width: 100%;
-	height: 1350px;
+	height: 1120px;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+	background-color: rgba(245, 245, 245, 0.4);
 }
 
 .hero-header {
@@ -187,14 +189,14 @@ h4 {
 	width: 45%;
 	border: 1px solid white;
 	border-radius: 12px;
-	height: 55vh;
+	height: 40vh;
 }
 
 .photo-area {
 	width: 45%;
 	border: 1px solid white;
 	border-radius: 12px;
-	height: 55vh;
+	height: 40vh;
 }
 
 /*----------------------------------------------
@@ -213,8 +215,6 @@ h4 {
 	width: 100%;
 	height: auto;
 	scroll-margin-top: 250px;
-	clip-path: polygon(4% 0%, 100% 0%, 96% 100%, 0% 100%);
-	background-color: rgba(245, 245, 245, 0.4);
 }
 
 @keyframes fade-in {
