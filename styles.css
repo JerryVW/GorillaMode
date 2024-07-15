@@ -211,8 +211,10 @@ h4 {
 
 .services-container {
 	width: 100%;
-	height: 940px;
-	scroll-margin-top: 270px;
+	height: auto;
+	scroll-margin-top: 250px;
+	clip-path: polygon(4% 0%, 100% 0%, 96% 100%, 0% 100%);
+	background-color: rgba(245, 245, 245, 0.4);
 }
 
 @keyframes fade-in {
@@ -232,6 +234,7 @@ h4 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	padding-bottom: 280px;
 }
 
 .services1,
@@ -242,52 +245,6 @@ h4 {
 	border: 1px solid white;
 	border-radius: 12px;
 	margin-top: 48px;
-}
-
-/* TOP SVG PATTERN */
-.custom-shape-divider-top-1720712160 {
-	position: relative;
-	top: 0;
-	left: 0;
-	width: 100%;
-	overflow: hidden;
-	line-height: 0;
-	transform: rotate(180deg);
-	margin-top: -180px;
-}
-
-.custom-shape-divider-top-1720712160 svg {
-	position: relative;
-	display: block;
-	width: calc(100% + 1.3px);
-	height: 178px;
-	transform: rotateY(180deg);
-}
-
-.custom-shape-divider-top-1720712160 .shape-fill {
-	fill: rgba(255, 0, 0, 0.4);
-}
-
-/* BOTTOM SVG PATTERN */
-.custom-shape-divider-bottom-1721056582 {
-	position: relative;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	overflow: hidden;
-	line-height: 0;
-	transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1721056582 svg {
-	position: relative;
-	display: block;
-	width: calc(100% + 1.3px);
-	height: 169px;
-}
-
-.custom-shape-divider-bottom-1721056582 .shape-fill {
-	fill: rgba(255, 0, 0, 0.4);
 }
 
 /*----------------------------------------------
