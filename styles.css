@@ -22,6 +22,7 @@ red: red */
 
 html {
 	scroll-behavior: smooth;
+	font-size: 10px;
 }
 
 body {
@@ -96,21 +97,21 @@ a:visited {
 
 .logo-header {
 	width: 20%;
-	height: 120px;
+	height: 12rem;
 }
 
 .nav-bar {
 	display: flex;
 	flex-direction: row;
-	font-size: 1.6em;
+	font-size: 2.5rem;
 	font-weight: 500;
 	list-style-type: none;
-	margin-top: 35px;
+	margin-top: 3.5rem;
 	cursor: pointer;
 }
 
 .nav-bar li {
-	margin-right: 35px;
+	margin-right: 3.5rem;
 }
 
 .nav-bar li a {
@@ -131,21 +132,21 @@ a:visited {
 }
 
 .mobile-nav {
-	margin-right: 35px;
-	margin-top: 30px;
-	height: 50px;
-	width: 25px;
+	margin-right: 35.5rem;
+	margin-top: 3rem;
+	height: 5rem;
+	width: 2.5rem;
 	cursor: pointer;
-	padding: 6px 7px;
+	padding: 0.6rem 0.7rem;
 	display: none;
-	font-size: 2.6em;
-	color: whitesmoke;
+	font-size: 3.6rem;
+	color: red;
 }
 
 .dropdown-arrow {
 	display: inline-block;
 	transform: rotate(-90deg);
-	margin-left: 5px;
+	margin-left: 0.5rem;
 	transition: all ease 0.5s;
 }
 
@@ -159,7 +160,7 @@ a:visited {
 
 .hero-container {
 	width: 100%;
-	height: 1120px;
+	height: 112rem;
 	clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 50% 100%, 0% 85%);
 	background-color: rgba(75, 110, 145, 0.4);
 }
@@ -170,7 +171,7 @@ a:visited {
 
 h2,
 h4 {
-	font-size: 2em;
+	font-size: 3rem;
 	color: white;
 }
 
@@ -179,21 +180,21 @@ h4 {
 	flex-direction: row;
 	justify-content: space-around;
 	width: 100%;
-	margin-top: 25px;
+	margin-top: 2.5rem;
 	height: 60vh;
 }
 
 .text-area {
 	width: 40%;
 	border: 1px solid white;
-	border-radius: 12px;
+	border-radius: 1.2rem;
 	height: 35vh;
 }
 
 .photo-area {
 	width: 40%;
 	border: 1px solid white;
-	border-radius: 12px;
+	border-radius: 1.2rem;
 	height: 35vh;
 }
 
@@ -206,14 +207,14 @@ h4 {
 	opacity: 0;
 	animation: fade-in linear forwards;
 	animation-timeline: view();
-	animation-range: 500px 800px;
-	scroll-margin-top: 280px;
+	animation-range: 50rem 80rem;
+	scroll-margin-top: 28rem;
 }
 
 .services-container {
 	width: 100%;
 	height: auto;
-	padding: 280px 50px 200px 50px;
+	padding: 28rem 5rem 20rem 5rem;
 }
 
 @keyframes fade-in {
@@ -238,10 +239,10 @@ h4 {
 .services2,
 .services3 {
 	width: 22%;
-	height: 460px;
+	height: 46rem;
 	border: 1px solid white;
 	border-radius: 12px;
-	margin-top: 48px;
+	margin-top: 4.8rem;
 }
 
 /*----------------------------------------------
@@ -250,8 +251,8 @@ h4 {
 .testimonial-container {
 	width: 100%;
 	height: auto;
-	scroll-margin-top: 400px;
-	padding: 200px 50px;
+	scroll-margin-top: 40rem;
+	padding: 20rem 5rem;
 }
 
 .testimonials-header {
@@ -270,10 +271,10 @@ h4 {
 .testimonial3,
 .testimonial4 {
 	width: 20%;
-	height: 280px;
+	height: 28rem;
 	border: 1px solid white;
-	border-radius: 12px;
-	margin-top: 48px;
+	border-radius: 1.2rem;
+	margin-top: 4.8rem;
 }
 /*----------------------------------------------
 3. PROJECTS Section Styles
@@ -281,9 +282,9 @@ h4 {
 
 .projects-container {
 	width: 100%;
-	height: 920px;
-	scroll-margin-top: 400px;
-	padding: 200px 50px;
+	height: 92rem;
+	scroll-margin-top: 40rem;
+	padding: 20rem 5rem;
 }
 
 .projects-header {
@@ -305,10 +306,10 @@ h4 {
 .project5,
 .project6 {
 	width: 30%;
-	height: 250px;
+	height: 25rem;
 	border: 1px solid white;
-	border-radius: 12px;
-	margin-top: 48px;
+	border-radius: 1.2rem;
+	margin-top: 4.8rem;
 }
 
 /*----------------------------------------------
@@ -321,12 +322,12 @@ h4 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 160px 0;
+	padding: 16rem 0;
 }
 
 .contact-header {
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 3rem;
 }
 
 .info-form {
@@ -335,38 +336,38 @@ h4 {
 
 .form-container {
 	color: whitesmoke;
-	font-size: 1.1em;
+	font-size: 1.6rem;
 	background-color: #222831;
-	width: 380px;
-	height: 595px;
-	border-radius: 20px;
-	line-height: 30px;
+	width: 38rem;
+	height: 59.5rem;
+	border-radius: 1.5rem;
+	line-height: 3rem;
 	margin: 0 auto;
-	padding: 30px 20px;
+	padding: 3rem 2rem;
 }
 
 .child {
-	padding-left: 30px;
-	width: 340px;
+	padding-left: 3rem;
+	width: 34rem;
 }
 .child input {
-	height: 35px;
+	height: 3.5rem;
 }
 
 .child input,
 .child textarea {
-	width: 280px;
-	border-radius: 6px;
-	padding-left: 5px;
+	width: 28rem;
+	border-radius: 0.6rem;
+	padding-left: 0.5rem;
 }
 
 .submit {
-	width: 150px;
-	height: 45px;
-	border-radius: 6px;
+	width: 15rem;
+	height: 4.5rem;
+	border-radius: 0.6rem;
 	background-color: #30475e;
 	color: whitesmoke;
-	font-size: 1em;
+	font-size: 1.6rem;
 	border: none;
 	cursor: pointer;
 }
@@ -380,7 +381,7 @@ h4 {
 
 .footer-container {
 	width: 100%;
-	height: 120px;
+	height: 12rem;
 	background-color: #dddddd;
 }
 
