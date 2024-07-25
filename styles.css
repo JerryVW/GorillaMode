@@ -13,7 +13,7 @@ red: red */
 	margin: 0;
 	padding: 0;
 	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+	box-sizing: inherit;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -22,7 +22,7 @@ red: red */
 
 html {
 	scroll-behavior: smooth;
-	font-size: 10px;
+	font-size: 62.5%;
 }
 
 body {
@@ -31,6 +31,7 @@ body {
 	background-attachment: fixed;
 	background-size: 100% 100%;
 	margin: 0;
+	box-sizing: border-box;
 	background-image: url('images/Code_Background2.jpg');
 	background-image: -webkit-gradient(
 			linear,
